@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>startup</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>main</string>
+			<key>url</key>
+			<string>main/main.html</string>
+			<key>title</key>
+			<string>Main</string>
+			<key>orientation</key>
+			<string>either</string>
+			<key>backgroundColor</key>
+			<string>black</string>
+			<key>hideNavBar</key>
+			<true/>
+			<key>hideTabBar</key>
+			<true/>
+			<key>fullscreen</key>
+			<true/>
+		</dict>
+	</array>
+	<key>id</key>
+	<string>com.domain.Life</string>
+	<key>name</key>
+	<string>Life</string>
+	<key>version</key>
+	<string>0.1</string>
+	<key>modules</key>
+	<array>
+		<string>yahoo</string>
+		<string>facebook</string>
+		<string>notification</string>
+		<string>analytics</string>
+		<string>media</string>
+		<string>api</string>
+		<string>app</string>
+		<string>database</string>
+		<string>filesystem</string>
+		<string>geolocation</string>
+		<string>accelerometer</string>
+		<string>network</string>
+		<string>platform</string>
+		<string>gesture</string>
+		<string>ui</string>
+		<string>contacts</string>
+	</array>
+</dict>
+</plist>
